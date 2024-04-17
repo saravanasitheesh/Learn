@@ -58,3 +58,29 @@ remote: Counting objects: 100% (7/7), done.
 remote: Compressing objects: 100% (4/4), done.
 remote: Total 7 (delta 0), reused 2 (delta 0), pack-reused 0
 Receiving objects: 100% (7/7), done.
+
+Git Status after new file:
+
+PS C:\Users\2330266\OneDrive - Cognizant\Desktop\code\Learn> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git.txt
+
+PS C:\Users\2330266\OneDrive - Cognizant\Desktop\code\Learn> git commit -m "git.txt"
+[main 2b0cd9f] git.txt
+ 1 file changed, 60 insertions(+)
+ create mode 100644 git.txt
+ 
+PS C:\Users\2330266\OneDrive - Cognizant\Desktop\code\Learn> git push origin
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 998 bytes | 499.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/saravanasitheesh/Learn.git
+   bf3d8c6..2b0cd9f  main -> main
