@@ -1,0 +1,60 @@
+Git Configuration Commands
+What's the current directory (present working directory)?
+	$pwd
+	Git Config (Global/User-level) Syntax
+	git config --global setting value
+	Configure User and Email
+
+General Syntax:
+
+	$git config --global user.name "Your Name"
+	$git config --global user.email "you@someplace.com"
+
+Example using course author's information:
+
+	$git config --global user.name "Ram"
+	$git config --global user.email "Ram@gmail.com"
+
+Listing All Global Configuration Settings
+git config --global --list
+Seeing Git's User-based Config file
+	$cat ~/.gitconfig
+
+Starting Commands:
+
+Lecture Command Listing - Fresh Start
+$pwd
+$cd projects/
+$git init git-demo
+ 
+
+Lecture Command Listing - Start with Existing Project
+	$pwd
+	$cd projects/
+	$cd website/
+	$ls
+	$git init
+ 
+
+Command Reference
+Present Workding Directory
+
+pwd
+Change Directory
+
+	$cd folder-name
+
+Git initialization
+
+	$git init [project-name]
+project-name parameter is optional. If not supplied, Git will initialize the current directory.
+
+Cloning Git:
+PS C:\Users\2330266\OneDrive - Cognizant\Desktop\code> git clone https://github.com/saravanasitheesh/Learn.git
+Cloning into 'Learn'...
+Rename from 'C:/Users/2330266/OneDrive - Cognizant/Desktop/code/Learn/.git/config.lock' to 'C:/Users/2330266/OneDrive - Cognizant/Desktop/code/Learn/.git/config' failed. Should I try again? (y/n) y
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 2 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
